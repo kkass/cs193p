@@ -7,15 +7,17 @@
 //
 
 #import "HelloPollyAppDelegate.h"
-
+#import "PollyController.h"
 @implementation HelloPollyAppDelegate
 
 @synthesize window;
+@synthesize viewController;
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
-
-    // Override point for customization after application launch
+    
+    // Override point for customization after app launch    
+    [window addSubview:viewController.view];
     [window makeKeyAndVisible];
 }
 
@@ -27,7 +29,7 @@
 
 
 - (void)dealloc {
-	NSLog(@"AppDelagate dealloc");
+    [viewController release];
     [window release];
     [super dealloc];
 }

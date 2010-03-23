@@ -8,11 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class PollyController;
+
 @interface HelloPollyAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+    PollyController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet PollyController *viewController;
 
 @end
 

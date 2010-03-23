@@ -3,7 +3,7 @@
 //  WhatATool
 //
 //  Created by Ken Kassing on 1/8/10.
-//  Copyright 2010__MyCompanyName__. All rights reserved.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
 #import "PolygonShape.h"
@@ -26,9 +26,9 @@
 
 - (id)initWithNumberOfSides:(int)sides minimumNumberOfSides:(int)min maximumNumberOfSides:(int)max {
 	if (self = [self init]) {
-		self.maximumNumberOfSides = max;
-		self.minimumNumberOfSides = min;
 		self.numberOfSides        = sides;
+		self.minimumNumberOfSides = min;
+		self.maximumNumberOfSides = max;
 	}
 	return self;
 }
@@ -87,7 +87,7 @@
 }
 
 - (NSString *)shapeType {
-	NSArray *shapeArray = [NSArray arrayWithObjects: @"triangle", @"quadrilateral", @"pentagon", @"hexagon", @"heptagon",
+	NSArray *shapeArray = [NSArray arrayWithObjects: @"triangle", @"square", @"pentagon", @"hexagon", @"heptagon",
 						   @"octagon", @"enneagon", @"decagon", @"hendecagon", @"dodecagon", nil];
 	return [shapeArray objectAtIndex:self.numberOfSides -3];
 }
