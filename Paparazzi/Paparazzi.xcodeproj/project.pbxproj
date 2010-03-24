@@ -14,16 +14,13 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		6378B23D11507A0100F4D3FA /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378B23B11507A0100F4D3FA /* PeopleViewController.m */; };
-		6378B23E11507A0100F4D3FA /* PeopleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6378B23C11507A0100F4D3FA /* PeopleViewController.xib */; };
 		6378B24B11507C7000F4D3FA /* Jen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6378B24911507C7000F4D3FA /* Jen.jpg */; };
 		6378B24C11507C7000F4D3FA /* Ken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6378B24A11507C7000F4D3FA /* Ken.jpg */; };
 		6378B29A1150898A00F4D3FA /* RecentsNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378B2991150898A00F4D3FA /* RecentsNavController.m */; };
-		6378B2A211508A0500F4D3FA /* ContactsNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378B29F11508A0500F4D3FA /* ContactsNavController.m */; };
-		6378B2A311508A0500F4D3FA /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378B2A111508A0500F4D3FA /* MainTabBarController.m */; };
 		63E005271151C19000A03E2B /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E005251151C19000A03E2B /* PhotoViewController.m */; };
-		63E005281151C19100A03E2B /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E005261151C19000A03E2B /* PhotoViewController.xib */; };
 		63E0052F1151C1CF00A03E2B /* PhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E0052D1151C1CF00A03E2B /* PhotoListViewController.m */; };
-		63E005301151C1CF00A03E2B /* PhotoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E0052E1151C1CF00A03E2B /* PhotoListViewController.xib */; };
+		63E45BD511599DD7000C43B7 /* PictureTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E45BD411599DD7000C43B7 /* PictureTableController.m */; };
+		63E45BD911599E54000C43B7 /* PeopleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E45BD811599E54000C43B7 /* PeopleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,21 +35,17 @@
 		32CA4F630368D1EE00C91783 /* Paparazzi_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paparazzi_Prefix.pch; sourceTree = "<group>"; };
 		6378B23A11507A0100F4D3FA /* PeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleViewController.h; sourceTree = "<group>"; };
 		6378B23B11507A0100F4D3FA /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
-		6378B23C11507A0100F4D3FA /* PeopleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleViewController.xib; sourceTree = "<group>"; };
 		6378B24911507C7000F4D3FA /* Jen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jen.jpg; sourceTree = "<group>"; };
 		6378B24A11507C7000F4D3FA /* Ken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ken.jpg; sourceTree = "<group>"; };
 		6378B2981150898A00F4D3FA /* RecentsNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentsNavController.h; sourceTree = "<group>"; };
 		6378B2991150898A00F4D3FA /* RecentsNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentsNavController.m; sourceTree = "<group>"; };
-		6378B29E11508A0500F4D3FA /* ContactsNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsNavController.h; sourceTree = "<group>"; };
-		6378B29F11508A0500F4D3FA /* ContactsNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsNavController.m; sourceTree = "<group>"; };
-		6378B2A011508A0500F4D3FA /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
-		6378B2A111508A0500F4D3FA /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 		63E005241151C19000A03E2B /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
 		63E005251151C19000A03E2B /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
-		63E005261151C19000A03E2B /* PhotoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoViewController.xib; sourceTree = "<group>"; };
 		63E0052C1151C1CF00A03E2B /* PhotoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListViewController.h; sourceTree = "<group>"; };
 		63E0052D1151C1CF00A03E2B /* PhotoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoListViewController.m; sourceTree = "<group>"; };
-		63E0052E1151C1CF00A03E2B /* PhotoListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoListViewController.xib; sourceTree = "<group>"; };
+		63E45BD311599DD7000C43B7 /* PictureTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureTableController.h; sourceTree = "<group>"; };
+		63E45BD411599DD7000C43B7 /* PictureTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureTableController.m; sourceTree = "<group>"; };
+		63E45BD811599E54000C43B7 /* PeopleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Paparazzi-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Paparazzi-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,23 +66,18 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6378B29E11508A0500F4D3FA /* ContactsNavController.h */,
-				6378B29F11508A0500F4D3FA /* ContactsNavController.m */,
-				6378B2A011508A0500F4D3FA /* MainTabBarController.h */,
-				6378B2A111508A0500F4D3FA /* MainTabBarController.m */,
+				63E45BD311599DD7000C43B7 /* PictureTableController.h */,
+				63E45BD411599DD7000C43B7 /* PictureTableController.m */,
 				6378B2981150898A00F4D3FA /* RecentsNavController.h */,
 				6378B2991150898A00F4D3FA /* RecentsNavController.m */,
 				1D3623240D0F684500981E51 /* PaparazziAppDelegate.h */,
 				1D3623250D0F684500981E51 /* PaparazziAppDelegate.m */,
 				6378B23A11507A0100F4D3FA /* PeopleViewController.h */,
 				6378B23B11507A0100F4D3FA /* PeopleViewController.m */,
-				6378B23C11507A0100F4D3FA /* PeopleViewController.xib */,
 				63E005241151C19000A03E2B /* PhotoViewController.h */,
 				63E005251151C19000A03E2B /* PhotoViewController.m */,
-				63E005261151C19000A03E2B /* PhotoViewController.xib */,
 				63E0052C1151C1CF00A03E2B /* PhotoListViewController.h */,
 				63E0052D1151C1CF00A03E2B /* PhotoListViewController.m */,
-				63E0052E1151C1CF00A03E2B /* PhotoListViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -126,6 +114,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				63E45BD811599E54000C43B7 /* PeopleViewController.xib */,
 				6378B24911507C7000F4D3FA /* Jen.jpg */,
 				6378B24A11507C7000F4D3FA /* Ken.jpg */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -187,11 +176,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				6378B23E11507A0100F4D3FA /* PeopleViewController.xib in Resources */,
 				6378B24B11507C7000F4D3FA /* Jen.jpg in Resources */,
 				6378B24C11507C7000F4D3FA /* Ken.jpg in Resources */,
-				63E005281151C19100A03E2B /* PhotoViewController.xib in Resources */,
-				63E005301151C1CF00A03E2B /* PhotoListViewController.xib in Resources */,
+				63E45BD911599E54000C43B7 /* PeopleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,10 +193,9 @@
 				1D3623260D0F684500981E51 /* PaparazziAppDelegate.m in Sources */,
 				6378B23D11507A0100F4D3FA /* PeopleViewController.m in Sources */,
 				6378B29A1150898A00F4D3FA /* RecentsNavController.m in Sources */,
-				6378B2A211508A0500F4D3FA /* ContactsNavController.m in Sources */,
-				6378B2A311508A0500F4D3FA /* MainTabBarController.m in Sources */,
 				63E005271151C19000A03E2B /* PhotoViewController.m in Sources */,
 				63E0052F1151C1CF00A03E2B /* PhotoListViewController.m in Sources */,
+				63E45BD511599DD7000C43B7 /* PictureTableController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

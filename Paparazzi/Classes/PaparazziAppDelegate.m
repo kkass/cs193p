@@ -16,17 +16,17 @@
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
 
-    // Override point for customization after application launch
+	// Override point for customization after application launch
 	//tabBarController = [[UITabBarController alloc] init];
 	[window addSubview:tabBarController.view];
-    [window makeKeyAndVisible];
+	[window makeKeyAndVisible];
 }
 
 
 - (void)dealloc {
 	[tabBarController release];
-    [window release];
-    [super dealloc];
+	[window release];
+	[super dealloc];
 }
 
 
